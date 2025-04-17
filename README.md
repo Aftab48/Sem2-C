@@ -7,7 +7,7 @@ This is a repository for assignments for our Computer Programming Lab class.
 
 This repository will contain the following:
 
-* **Assignment Files:** Individual folders or files for each assignment, clearly named (e.g., `Assignment_1`, `Lab_Report_2`, etc.).
+* **Assignment Files:** Individual folders or files for each assignment, clearly named (e.g., `Assignment_1`, `Assignment_2a`, etc.).
 * **Potentially:** Any supplementary materials, resources, or notes related to the assignments (if applicable).
 
 ## Repository Structure
@@ -40,7 +40,7 @@ Cloning the repository creates a local copy of the entire project on your comput
 4.  **Run the Clone Command:** In your terminal or command prompt, type the following command and paste the copied URL after `git clone`:
 
     ```bash
-    git clone [[repository URL]](https://github.com/Aftab48/Sem2-C.git)
+    git clone https://github.com/Aftab48/Sem2-C.git
     ```
 
 5.  **Access the Files:** Once the cloning process is complete, a new folder with the repository name will be created in your current directory. You can navigate into this folder to access the assignment files.
@@ -68,8 +68,6 @@ If you cloned the repository, you can easily update your local copy with any new
 ```bash
 git pull origin main
 ```
-
-(Assuming your main branch is named `main`. If it's `master`, use `git pull origin master`).
 
 ## Contact Information
 
