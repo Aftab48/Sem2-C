@@ -1,0 +1,17 @@
+a.out
+a.exe
+
+*.o
+*.obj
+*.exe
+*.out
+*.elf
+
+/build/
+/bin/
+/dist/
+
+core
+
+*~
+*.tmp
