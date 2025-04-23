@@ -10,6 +10,7 @@ int main() {
     for (i = 1; i <= n; i++) {
         factorial = 1;
 
+        //factorial
         for (j = 1; j <= i; j++) {
             factorial *= j;
         }
