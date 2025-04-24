@@ -7,13 +7,13 @@ int main() {
   printf("Enter the principal amount: ");
   scanf("%f", &principal);
 
-  printf("Enter the annual interest rate (as a decimal, e.g., 0.05 for 5%): ");
+  printf("Enter the annual interest rate : ");
   scanf("%f", &rate);
 
   printf("Enter the time period in years: ");
   scanf("%f", &time);
 
-  simpleInterest = (principal * rate * time);
+  simpleInterest = (principal * rate * time)/100;
 
   printf("\nSimple Interest = %.2f\n", simpleInterest);
 
