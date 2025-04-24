@@ -13,7 +13,7 @@ int main() {
   printf("Enter the time period in years: ");
   scanf("%f", &time);
 
-  simpleInterest = (principal * rate * time);
+  simpleInterest = (principal * rate * time) / 100;
 
   printf("\nSimple Interest = %.2f\n", simpleInterest);
 
