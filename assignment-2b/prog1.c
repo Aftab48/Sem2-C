@@ -7,7 +7,6 @@ int main() {
     scanf("%d", &number);
 
     original = number;
-
     while (number > 0) {
         int digit = number % 10;
 
