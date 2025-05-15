@@ -1,16 +1,23 @@
 #include <stdio.h>
+#include <math.h>
 
 int isArmstrong(int num) {
     int original = num;
-    int sum = 0, digit;
+    int sum = 0, digits = 0, temp = num;
 
-    while (num > 0) {
-        digit = num % 10;
-        sum += digit * digit * digit;
-        num /= 10;
+    while (temp > 0) {
+        digits++;
+        temp /= 10;
     }
 
-    return sum == original;
+    temp = num;
+    while (temp > 0) {
+        int digit = temp % 10;
+        sum += pow(digit, digits);
+        temp /= 10;
+    }
+    
+    return (original == 0) ? 1 : (sum == original);
 }
 
 int main() {
